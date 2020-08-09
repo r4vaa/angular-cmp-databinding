@@ -10,6 +10,20 @@ export class AppComponent {
     type:'server',name:'Server Name', content:'Just a server'
   }];
 
+      onServerAdded(serverData:{serverName: string, serverContent:string}){
+    this.serverElements.push({
+      type: 'server',
+      name: serverData.serverName,
+      content: serverData.serverContent
+    });
+  }
 
+     onBlueprintAdded(serverData:{serverName:string, serverContent: string}) {
+    this.serverElements.push({
+      type: 'blueprint',
+      name: serverData.serverName,
+      content: serverData.serverContent
+       });
 
+}
 }
