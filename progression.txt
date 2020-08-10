@@ -12,3 +12,12 @@ then add it to the type script
 method(name_of_local_reference: HTMLInputElement)
 this.name_of_local_reference.value
 this is how we can use local reference
+
+
+@viewChild
+so it used to locally use the reference from template to child component.
+and to do this we need to add first local reference like we did previously
+#name_of_local_reference and after that we need to go to the typescript component of that component
+so @viewChild('name_of_local_reference') name_of_local_reference:ElementRef and we need to import it from angular'core';
+after that we can use it in our method
+eg:- serverContent: this.serverContentInput.nativeElement.value
