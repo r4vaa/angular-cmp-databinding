@@ -4,3 +4,11 @@ there are three types of encapsulation that are:
 1) Emulated:- this encapsulation propogates from the main html to the component where it is defined.
 2) Native:- this encapsulation does propogates fromt the main html so, it only exsist in that component.
 3) None:- styles is encapsulated from main component to all the component and visilbe to all component.
+
+local reference
+instead of using data binding we can use local reference we can easily fetch data from local template component to local typescript component for using local reference
+firt create a local reference uisng #name_of_local_reference after adding this then add it to the method that we are using
+then add it to the type script
+method(name_of_local_reference: HTMLInputElement)
+this.name_of_local_reference.value
+this is how we can use local reference
