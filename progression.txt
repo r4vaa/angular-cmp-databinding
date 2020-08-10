@@ -1,0 +1,6 @@
+this note was given just to test what i knw and ill continue to write everything from now onwards.
+View encapsulation
+there are three types of encapsulation that are:
+1) Emulated:- this encapsulation propogates from the main html to the component where it is defined.
+2) Native:- this encapsulation does propogates fromt the main html so, it only exsist in that component.
+3) None:- styles is encapsulated from main component to all the component and visilbe to all component.
