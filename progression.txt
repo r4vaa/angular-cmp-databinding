@@ -21,3 +21,6 @@ and to do this we need to add first local reference like we did previously
 so @viewChild('name_of_local_reference') name_of_local_reference:ElementRef and we need to import it from angular'core';
 after that we can use it in our method
 eg:- serverContent: this.serverContentInput.nativeElement.value
+
+ng-content
+ng-content is used to take the project the content of child component to the parent component it like string interpolation but it takes bigger code than that. so we can place the code of the child component to the parent component but we can process it in the child component by using ng-content mostly the complicated ng-content

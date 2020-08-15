@@ -26,4 +26,7 @@ export class AppComponent {
        });
 
 }
+onChagneFirst(){
+  this.serverElements[0].name='changed!';
+}
 }
