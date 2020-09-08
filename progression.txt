@@ -24,3 +24,9 @@ eg:- serverContent: this.serverContentInput.nativeElement.value
 
 ng-content
 ng-content is used to take the project the content of child component to the parent component it like string interpolation but it takes bigger code than that. so we can place the code of the child component to the parent component but we can process it in the child component by using ng-content mostly the complicated ng-content
+
+hooks
+ngOnInit()
+ngOnChanges() to see changes made in angular that can check if the previos data has been saved or not
+ngDoCheck() it occurs whenever any changes occur in angular so whenever anything is triggered ngDoCheck is been called.
+
